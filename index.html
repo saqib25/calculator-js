@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Simple Calculatot</title>
+</head>
+<body>
+    <div class="wrapper">
+     <div class="calculator">
+     <div class="cal-body">
+     <h1 id="output">0</h1>
+     <p id="input"></p>
+     </div>
+     <div class="footer">
+     <div class="symbol" onclick="calculate('C')"><span>C</span></div>
+     <div class="symbol" onclick="calculate('Ac')"><span>Ac</span></div>
+     <div class="symbol" onclick="calculate('%')"><span>%</span></div>
+     <div class="symbol" onclick="calculate('/')"><span>&#247;</span></div>
+     <div onclick="calculate('7')"><span>7</span></div>
+     <div onclick="calculate('8')"><span>8</span></div>
+     <div onclick="calculate('9')"><span>9</span></div>
+     <div onclick="calculate('*')" class="symbol"><span>&#215;</span></div>
+     <div onclick="calculate('4')"><span>4</span></div>
+     <div onclick="calculate('5')"><span>5</span></div>
+     <div onclick="calculate('6')"><span>6</span></div>
+     <div onclick="calculate('-')" class="symbol"><span>-</span></div>
+     <div onclick="calculate('1')"><span>1</span></div>
+     <div onclick="calculate('2')"><span>2</span></div>
+     <div onclick="calculate('3')"><span>3</span></div>
+     <div onclick="calculate('+')" class="symbol"><span>+</span></div>
+     <div onclick="calculate('0')"><span>0</span></div>
+     <div onclick="calculate('00')"><span>00</span></div>
+     <div onclick="calculate('.')"><span>.</span></div>
+     <div onclick="calculate('=')" class="symbol-dark"><span>=</span></div>    
+     </div>    
+     </div>   
+    </div>
+
+    <!-- ---- Java script linked -->
+    <script src="script.js"></script> 
+</body>
+</html>
