@@ -16,6 +16,7 @@ function calculate(data){
         
         case"=":
         output.innerHTML=eval(input.innerHTML);
+        
         break;
 
         default:
